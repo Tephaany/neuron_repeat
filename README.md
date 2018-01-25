@@ -1,11 +1,11 @@
 # intelora-repeat
 
-A neuron to say / repeat text
+A Neuron to say or repeat a text given by the user
 
 
 ## Synopsis
 
-Make intelora say what you want
+Make Intelora say what you want
 
 ## Installation
 
@@ -20,6 +20,7 @@ Make intelora say what you want
 |------------|----------|-----------|----------|--------------------------------------------------------------------------------------------|
 | *          | Yes      |           | String* * | Your incoming query                                                                        |
 
+## Limitation
 
 You can put as many parameters that you want, the neurons will simply send them back to you.
 So for example you send arg1 and arg2, you will be able to use {{arg1}} and {{arg2}} in your say_template or template.
@@ -75,8 +76,8 @@ Play a playlist by giving its name to intelora
 
 
 
-see more example in the [sample brain file](https://github.com/bacardi55/intelora-repeat/blob/master/samples/brain.yml)
+See more example in the [sample brain file] -> (https://github.com/bacardi55/intelora-repeat/blob/master/samples/brain.yml)
 
-* [An example of use of thie neuron](http://bacardi55.org/2017/02/16/intelora-acting-as-a-reminder.html)
-* [my posts about intelora](http://bacardi55.org/intelora.html)
+* [An example of use of thie neuron] -> (http://bacardi55.org/2017/02/16/intelora-acting-as-a-reminder.html)
+* [my posts about intelora] -> (http://bacardi55.org/intelora.html)
 
